@@ -41,7 +41,15 @@ class Author_Post_Widget extends WP_Widget {
     		height: auto;
 		}
 
+		.author_title_widget{
+		    margin-top: 3px;
+		    margin-bottom: 8px;
+		    font-weight: 600;
+		    font-size: 24px;
+		}
+		
 		.author_subtitle_widget{
+			font-family: Montserrat, sans-serif;
 			font-size: 14px;
 			font-weight: 400;
 			color: #788193;
@@ -49,7 +57,7 @@ class Author_Post_Widget extends WP_Widget {
 
 		.author_description_widget{
 			font-family: Montserrat, sans-serif;
-			font-size: 16px;
+			font-size: 14px;
 			font-weight: 400;
 		}
 	</style>
@@ -62,7 +70,7 @@ class Author_Post_Widget extends WP_Widget {
 
 	<div>
 		<span class="author_subtitle_widget">Escrito por:</span>
-		<h3 class="author_title" itemprop="name">
+		<h3 class="author_title_widget" itemprop="name">
 			<a class="author_link" href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author">
 				<?php
 				// Translators: Add the author's name in the <span>
