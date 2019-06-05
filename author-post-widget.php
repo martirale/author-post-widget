@@ -58,7 +58,7 @@ class Author_Post_Widget extends WP_Widget {
 		.author_description_widget{
 			font-family: Montserrat, sans-serif;
 			font-size: 14px;
-			font-weight: 400;
+			font-weight: 300;
 		}
 	</style>
 
