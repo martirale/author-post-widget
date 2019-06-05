@@ -1,6 +1,5 @@
 # Author Post Widget
-Shows the author of a post or page in the widgets area.
 
-This plug-in generates a widget that displays in any widgets area in WordPress the author of the entry or page.
+## This plug-in generates a widget that displays in any widgets area in WordPress the author of the entry or page.
 
-In this way, instead of using the author's display predefined by WordPress, we can choose to place it where we want without touching the source code of our theme.
+In this way, instead of using the author's display predefined by WordPress, we can choose to place it where we want without touching the source code of our theme. 
