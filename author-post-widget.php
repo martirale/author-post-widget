@@ -69,7 +69,7 @@ class Author_Post_Widget extends WP_Widget {
 	</div><!-- author_avatar -->
 
 	<div>
-		<span class="author_subtitle_widget">Escrito por:</span>
+		<span class="author_subtitle_widget">Redacción</span>
 		<h3 class="author_title_widget" itemprop="name">
 			<a class="author_link" href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author">
 				<?php
